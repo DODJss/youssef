@@ -8,7 +8,7 @@ class config { private static $pdo=NULL   ;
 
     if(!isset(self::$pdo ))
     {
-
+     
         try {
 
             self::$pdo=new PDO('mysql:host=localhost;dbname=final','root','',
